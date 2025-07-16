@@ -18,7 +18,7 @@ A simple RESTful API for user authentication and transaction management using Go
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/test-naga-exchange.git
+git clone https://github.com/RamdhaniMichan/backend-test.git
 cd test-naga-exchange
 ```
 
@@ -79,7 +79,7 @@ docker-compose up --build
   **Body:**  
   ```json
   {
-    "amount": 100000,
+    "amount": "100000",
     "type": "deposit"
   }
   ```
